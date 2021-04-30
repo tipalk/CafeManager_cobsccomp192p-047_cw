@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Doe-v5-zH2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SaF-h4-Jim">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -401,7 +401,7 @@
                     <connections>
                         <segue destination="GVP-Kh-dGk" kind="relationship" relationship="viewControllers" id="h9u-hR-AfB"/>
                         <segue destination="lmt-Is-DQ3" kind="relationship" relationship="viewControllers" id="BoL-7S-VEk"/>
-                        <segue destination="Vvg-ci-k8j" kind="relationship" relationship="viewControllers" id="igf-48-Orr"/>
+                        <segue destination="zis-P2-MeL" kind="relationship" relationship="viewControllers" id="hFv-EU-Rj2"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6HN-h2-IIE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -519,50 +519,6 @@
             </objects>
             <point key="canvasLocation" x="-1286" y="1433"/>
         </scene>
-        <!--Store-->
-        <scene sceneID="zoB-zb-rFo">
-            <objects>
-                <viewController id="Vvg-ci-k8j" customClass="StoreRootViewController" customModule="CafeManager_cobsccomp192p_047_cw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uKg-fk-Ztm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="RNa-X2-7r0">
-                                <rect key="frame" x="30" y="20" width="315" height="32"/>
-                                <segments>
-                                    <segment title="Preview"/>
-                                    <segment title="Category"/>
-                                    <segment title="Menu"/>
-                                </segments>
-                                <connections>
-                                    <action selector="onSegIndexChanged:" destination="Vvg-ci-k8j" eventType="valueChanged" id="h3E-nS-mMO"/>
-                                </connections>
-                            </segmentedControl>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mld-re-w2S">
-                                <rect key="frame" x="20" y="71" width="335" height="537"/>
-                                <connections>
-                                    <segue destination="Txa-fv-mEZ" kind="presentation" identifier="tarBarSegue" modalPresentationStyle="fullScreen" id="0I2-ha-a9G"/>
-                                </connections>
-                            </containerView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="7dF-6i-5Kv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="7dF-6i-5Kv" firstAttribute="trailing" secondItem="RNa-X2-7r0" secondAttribute="trailing" constant="30" id="6oz-cB-HIG"/>
-                            <constraint firstItem="RNa-X2-7r0" firstAttribute="leading" secondItem="7dF-6i-5Kv" secondAttribute="leading" constant="30" id="Aup-xy-50r"/>
-                            <constraint firstItem="RNa-X2-7r0" firstAttribute="top" secondItem="7dF-6i-5Kv" secondAttribute="top" constant="20" id="axi-Fa-rQU"/>
-                            <constraint firstItem="Mld-re-w2S" firstAttribute="leading" secondItem="7dF-6i-5Kv" secondAttribute="leading" constant="20" id="r77-sq-Chh"/>
-                            <constraint firstItem="7dF-6i-5Kv" firstAttribute="bottom" secondItem="Mld-re-w2S" secondAttribute="bottom" constant="10" id="tyQ-Ye-Qsj"/>
-                            <constraint firstItem="7dF-6i-5Kv" firstAttribute="trailing" secondItem="Mld-re-w2S" secondAttribute="trailing" constant="20" id="uTe-T8-UFF"/>
-                            <constraint firstItem="Mld-re-w2S" firstAttribute="top" secondItem="RNa-X2-7r0" secondAttribute="bottom" constant="20" id="zhf-tm-epy"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Store" image="viewfinder" catalog="system" id="b7X-Pt-PnL"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Pda-rm-yhi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2134" y="1383"/>
-        </scene>
         <!--Order-->
         <scene sceneID="5As-M3-MBl">
             <objects>
@@ -633,7 +589,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iSV-2x-FlA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3010" y="2133"/>
+            <point key="canvasLocation" x="-2876" y="2006"/>
         </scene>
         <!--Item-->
         <scene sceneID="7qo-dd-Oam">
@@ -862,6 +818,50 @@
             </objects>
             <point key="canvasLocation" x="-3919" y="2945"/>
         </scene>
+        <!--Store-->
+        <scene sceneID="ruq-Rb-H6w">
+            <objects>
+                <viewController id="zis-P2-MeL" customClass="StoreRootViewController" customModule="CafeManagerTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Awc-xm-Vmx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ye4-P0-BHO">
+                                <rect key="frame" x="30" y="20" width="315" height="32"/>
+                                <segments>
+                                    <segment title="Preview"/>
+                                    <segment title="Category"/>
+                                    <segment title="Menu"/>
+                                </segments>
+                                <connections>
+                                    <action selector="onSegIndexChanged:" destination="zis-P2-MeL" eventType="valueChanged" id="cOi-6B-ZQu"/>
+                                </connections>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gm9-n5-zvi">
+                                <rect key="frame" x="20" y="71" width="335" height="537"/>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7OI-Rg-X9D"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ye4-P0-BHO" firstAttribute="leading" secondItem="7OI-Rg-X9D" secondAttribute="leading" constant="30" id="0kp-4d-dAU"/>
+                            <constraint firstItem="Ye4-P0-BHO" firstAttribute="top" secondItem="7OI-Rg-X9D" secondAttribute="top" constant="20" id="F6C-EL-3ng"/>
+                            <constraint firstItem="7OI-Rg-X9D" firstAttribute="trailing" secondItem="Gm9-n5-zvi" secondAttribute="trailing" constant="20" id="Nfo-KR-Uhq"/>
+                            <constraint firstItem="7OI-Rg-X9D" firstAttribute="bottom" secondItem="Gm9-n5-zvi" secondAttribute="bottom" constant="10" id="j9g-Rp-Zdh"/>
+                            <constraint firstItem="7OI-Rg-X9D" firstAttribute="trailing" secondItem="Ye4-P0-BHO" secondAttribute="trailing" constant="30" id="q9t-hW-zru"/>
+                            <constraint firstItem="Gm9-n5-zvi" firstAttribute="top" secondItem="Ye4-P0-BHO" secondAttribute="bottom" constant="20" id="vAy-en-zlv"/>
+                            <constraint firstItem="Gm9-n5-zvi" firstAttribute="leading" secondItem="7OI-Rg-X9D" secondAttribute="leading" constant="20" id="zhK-gv-XIa"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Store" image="homekit" catalog="system" id="Wex-YE-fJp"/>
+                    <connections>
+                        <segue destination="Txa-fv-mEZ" kind="presentation" identifier="tarBarSegue" modalPresentationStyle="fullScreen" id="kpu-Bi-XQN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lvh-dw-3Bw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2223" y="1211"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="CUg-gg-ZSl"/>
@@ -869,9 +869,9 @@
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="diet" width="170.5" height="170.5"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="order-2" width="32" height="32"/>
         <image name="user" width="32" height="32"/>
-        <image name="viewfinder" catalog="system" width="128" height="115"/>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
