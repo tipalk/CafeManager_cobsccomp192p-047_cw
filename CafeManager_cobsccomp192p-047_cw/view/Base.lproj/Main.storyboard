@@ -821,7 +821,7 @@
         <!--Store-->
         <scene sceneID="ruq-Rb-H6w">
             <objects>
-                <viewController id="zis-P2-MeL" customClass="StoreRootViewController" customModule="CafeManagerTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zis-P2-MeL" customClass="StoreRootViewController" customModule="CafeManager_cobsccomp192p_047_cw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Awc-xm-Vmx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
