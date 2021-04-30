@@ -146,7 +146,6 @@ extension MenuViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         let pickerToolBar = UIToolbar()
         pickerToolBar.sizeToFit()
         
-//        let doneAction = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(onValuePicked))
         let cancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: #selector(onPickerCancelled))
         let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
         pickerToolBar.setItems([space, cancelButton], animated: true)
