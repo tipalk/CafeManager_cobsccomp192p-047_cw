@@ -119,13 +119,13 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ks0-I1-Of7">
                                 <rect key="frame" x="30" y="486" width="315" height="40"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="HDX-E1-yz0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="SIgn In ">
-                                    <color key="titleColor" systemColor="labelColor"/>
+                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
                                 <connections>
                                     <action selector="onsigninclick:" destination="EVn-Xi-5wv" eventType="touchUpInside" id="rWo-1j-Gcx"/>
@@ -298,13 +298,13 @@
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G52-Gi-X3N">
                                                 <rect key="frame" x="30" y="603" width="315" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="tQN-mI-YSK"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="SIgn In ">
-                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                <state key="normal" title="SIgn Up">
+                                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="onClickSignUp:" destination="4Iz-PH-eb4" eventType="touchUpInside" id="YMM-vh-6Hj"/>
@@ -540,6 +540,9 @@
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mld-re-w2S">
                                 <rect key="frame" x="20" y="71" width="335" height="537"/>
+                                <connections>
+                                    <segue destination="Txa-fv-mEZ" kind="presentation" identifier="tarBarSegue" modalPresentationStyle="fullScreen" id="0I2-ha-a9G"/>
+                                </connections>
                             </containerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7dF-6i-5Kv"/>
@@ -558,7 +561,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pda-rm-yhi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2342" y="1457"/>
+            <point key="canvasLocation" x="-2134" y="1383"/>
         </scene>
         <!--Order-->
         <scene sceneID="5As-M3-MBl">
@@ -630,7 +633,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iSV-2x-FlA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3506" y="232"/>
+            <point key="canvasLocation" x="-3010" y="2133"/>
         </scene>
         <!--Item-->
         <scene sceneID="7qo-dd-Oam">
@@ -737,7 +740,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zH9-0S-fCS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4010" y="1028"/>
+            <point key="canvasLocation" x="-3010" y="2945"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="UcW-2o-2cO">
@@ -794,7 +797,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QZg-ib-WcV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3150" y="1003"/>
+            <point key="canvasLocation" x="-2222" y="2907"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="dKY-OT-WjX">
@@ -857,7 +860,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gy9-Lg-NJv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5049" y="1028"/>
+            <point key="canvasLocation" x="-3919" y="2945"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -869,8 +872,8 @@
         <image name="order-2" width="32" height="32"/>
         <image name="user" width="32" height="32"/>
         <image name="viewfinder" catalog="system" width="128" height="115"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -883,9 +886,6 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
