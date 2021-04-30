@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SaF-h4-Jim">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Doe-v5-zH2">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -517,7 +517,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JvN-5W-Eld" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1353" y="1457"/>
+            <point key="canvasLocation" x="-1286" y="1433"/>
         </scene>
         <!--Store-->
         <scene sceneID="zoB-zb-rFo">
@@ -638,7 +638,7 @@
         <!--Item-->
         <scene sceneID="7qo-dd-Oam">
             <objects>
-                <viewController id="g0l-7f-3Xl" customClass="MenuViewController" customModule="CafeManagerTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g0l-7f-3Xl" customClass="MenuViewController" customModule="CafeManager_cobsccomp192p_047_cw" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dc5-iP-8yk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -802,7 +802,7 @@
         <!--Item 2-->
         <scene sceneID="dKY-OT-WjX">
             <objects>
-                <viewController id="M9f-5b-g15" customClass="CategoryViewController" customModule="CafeManagerTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="M9f-5b-g15" customClass="CategoryViewController" customModule="CafeManager_cobsccomp192p_047_cw" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Crs-IS-7iY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
