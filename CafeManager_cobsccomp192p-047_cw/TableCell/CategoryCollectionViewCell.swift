@@ -1,8 +1,8 @@
 //
 //  CategoryCollectionViewCell.swift
-//  CafeManagerTest
+//  CafeManager_cobsccomp192p-047_cw
 //
-//  Created by Hishara Dilshan on 2021-04-30.
+//  Created by Tiny Pahattuge on 2021-04-30.
 //
 
 import UIKit
