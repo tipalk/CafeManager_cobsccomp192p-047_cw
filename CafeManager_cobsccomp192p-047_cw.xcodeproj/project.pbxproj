@@ -29,6 +29,8 @@
 		797B29F0263C2C240006061B /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B29EE263C2C240006061B /* OrderTableViewCell.swift */; };
 		797B29F1263C2C240006061B /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 797B29EF263C2C240006061B /* OrderTableViewCell.xib */; };
 		797B29F6263C2E2B0006061B /* StoreRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B29F5263C2E2B0006061B /* StoreRootViewController.swift */; };
+		797B29FB263C30D00006061B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B29FA263C30D00006061B /* MenuViewController.swift */; };
+		797B2A00263C313D0006061B /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B29FF263C313D0006061B /* ImageFetcher.swift */; };
 		8093042BE31B43F57F63D94E /* Pods_CafeManager_cobsccomp192p_047_cw_CafeManager_cobsccomp192p_047_cwUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D47F084F07101B5BFC129E6 /* Pods_CafeManager_cobsccomp192p_047_cw_CafeManager_cobsccomp192p_047_cwUITests.framework */; };
 		8FBD2F8864FCB92111225FDD /* Pods_CafeManager_cobsccomp192p_047_cwTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A99888A10BB2063856D3ED /* Pods_CafeManager_cobsccomp192p_047_cwTests.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +86,8 @@
 		797B29EE263C2C240006061B /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 		797B29EF263C2C240006061B /* OrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
 		797B29F5263C2E2B0006061B /* StoreRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreRootViewController.swift; sourceTree = "<group>"; };
+		797B29FA263C30D00006061B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		797B29FF263C313D0006061B /* ImageFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 		99C4BB7684996BC2E65C566B /* Pods-CafeManager_cobsccomp192p-047_cwTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeManager_cobsccomp192p-047_cwTests.debug.xcconfig"; path = "Target Support Files/Pods-CafeManager_cobsccomp192p-047_cwTests/Pods-CafeManager_cobsccomp192p-047_cwTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7D39929A391FBF2E8879BE8 /* Pods-CafeManager_cobsccomp192p-047_cw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeManager_cobsccomp192p-047_cw.release.xcconfig"; path = "Target Support Files/Pods-CafeManager_cobsccomp192p-047_cw/Pods-CafeManager_cobsccomp192p-047_cw.release.xcconfig"; sourceTree = "<group>"; };
 		F6E2AFB12C34362F3DC2CC89 /* Pods-CafeManager_cobsccomp192p-047_cw-CafeManager_cobsccomp192p-047_cwUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeManager_cobsccomp192p-047_cw-CafeManager_cobsccomp192p-047_cwUITests.debug.xcconfig"; path = "Target Support Files/Pods-CafeManager_cobsccomp192p-047_cw-CafeManager_cobsccomp192p-047_cwUITests/Pods-CafeManager_cobsccomp192p-047_cw-CafeManager_cobsccomp192p-047_cwUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 				797B2996263C19340006061B /* SignInViewController.swift */,
 				797B29A0263C19D30006061B /* SignUpViewController.swift */,
 				797B29F5263C2E2B0006061B /* StoreRootViewController.swift */,
+				797B29FA263C30D00006061B /* MenuViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 		797B298B263C18760006061B /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				797B29FF263C313D0006061B /* ImageFetcher.swift */,
 				797B298C263C188F0006061B /* Session.swift */,
 				797B299B263C19620006061B /* InputValidator.swift */,
 			);
@@ -491,11 +497,13 @@
 				797B2997263C19340006061B /* SignInViewController.swift in Sources */,
 				797B2992263C18B10006061B /* EntityModel.swift in Sources */,
 				797B298D263C188F0006061B /* Session.swift in Sources */,
+				797B29FB263C30D00006061B /* MenuViewController.swift in Sources */,
 				790788E9263C0E3A00AECB6A /* AppDelegate.swift in Sources */,
 				797B299C263C19620006061B /* InputValidator.swift in Sources */,
 				797B29E5263C2A7D0006061B /* OrderSummaryTableViewCell.swift in Sources */,
 				797B29F0263C2C240006061B /* OrderTableViewCell.swift in Sources */,
 				797B29A1263C19D30006061B /* SignUpViewController.swift in Sources */,
+				797B2A00263C313D0006061B /* ImageFetcher.swift in Sources */,
 				790788EB263C0E3A00AECB6A /* SceneDelegate.swift in Sources */,
 				797B2984263C18190006061B /* LaunchViewController.swift in Sources */,
 				797B29EA263C2B8B0006061B /* OrderViewController.swift in Sources */,

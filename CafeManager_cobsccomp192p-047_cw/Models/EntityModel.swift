@@ -12,7 +12,7 @@ struct Category {
     var categoryName: String
 }
 
-struct foodItem {
+struct FoodItem {
     var foodItemID: String
     var foodName: String
     var foodDescription: String
